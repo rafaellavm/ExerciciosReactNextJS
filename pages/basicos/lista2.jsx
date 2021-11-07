@@ -14,5 +14,5 @@ function GerarLista(){
        <span>3</span>
    ]
 
-   return lista;
+   return lista; 
 }
