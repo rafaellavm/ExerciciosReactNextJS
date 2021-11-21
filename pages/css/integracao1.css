@@ -1,0 +1,12 @@
+.integracao1 vermelha{
+    color:red;
+}
+
+.integracao1 .azul{
+    color:blue;
+}
+
+.integracao1 .branca{
+    background-color: #444;
+    color: #fff;
+}
