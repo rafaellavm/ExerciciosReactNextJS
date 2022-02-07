@@ -7,6 +7,7 @@ export default function usandoTitulo(){
         <Titulo 
         principal="Página de Cadastro" 
         secundario="Incluir, alterar e excluir coisas!"
+        terceiro = "Testando"
         pequeno={true} />
 
         <Titulo 

@@ -5,6 +5,7 @@ export default function Titulo(props){
             <>
             <p>{props.principal}</p>
             <p>{props.secundario}</p>
+            <p>{props.terceiro}</p>
             </> 
         )
     }
