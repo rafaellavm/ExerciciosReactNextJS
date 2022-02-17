@@ -26,8 +26,6 @@ export default function mouse(props) {
 
             setX(ev.clientX);
             alterarY(ev.clientY);
-
-
         }
 
     return (
