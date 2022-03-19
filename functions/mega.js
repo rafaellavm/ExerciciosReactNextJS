@@ -1,7 +1,8 @@
-function mega(qtde = 6, numeros = []) {
+export function mega(qtde = 6, numeros = []) {
 
-    console.log('qtde = ', qtde);
-    console.log('numeros = ', numeros);
+    qtde = +qtde;
+    //console.log('qtde = ', qtde);
+    //console.log('numeros = ', numeros);
 
     if (qtde < 6 && qtde > 60) {
         throw "Quantidade inválida!";
@@ -14,7 +15,7 @@ function mega(qtde = 6, numeros = []) {
 
     if (!numeros.includes(numeroAleatorio)) {
 
-        console.log('entrou');
+        //console.log('entrou');
         return mega(qtde, [...numeros, numeroAleatorio]);
     } else {
         mega(qtde, numeros)
